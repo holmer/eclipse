@@ -1,0 +1,4 @@
+PROJECT TITLE: Git test
+PURPOSE OF PROJECT: To test Git, GitHub and Egit
+VERSION or DATE: 2013-10-24
+AUTHORS: UH
