@@ -15,9 +15,12 @@ public class PrimeGenerator implements Generator<Integer> {
 	}
 	
 	private boolean isPrime(int n) {
-	    for ( int f = 2; f <= (int)Math.sqrt(n); f++ )
-	        if ( n % f == 0 )
+		int factor = 2;
+		while ( factor <= (int)Math.sqrt(n) ) {
+	        if ( n % factor == 0 )
 	            return false;
+	        factor++;
+		}
 	    return true;
     }
 }
