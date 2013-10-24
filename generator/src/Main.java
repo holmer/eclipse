@@ -1,3 +1,7 @@
+// Purpose: to test the various generator classes
+// Author: UH
+// Last update: 2013-10-24
+
 import java.util.Collections;
 import java.util.List;
 
